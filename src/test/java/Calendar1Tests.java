@@ -18,7 +18,7 @@ public class Calendar1Tests {
     @Test
     public void selectDateCalendar1() throws IOException, InterruptedException {
 
-        //webdriver instatiate
+        //webdriver instantiate
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\smruti\\OneDrive\\Desktop\\AmazingFunctionality\\src\\main\\resources\\executables\\chromedriver.exe");
         driver= new ChromeDriver();
 
@@ -42,7 +42,6 @@ public class Calendar1Tests {
 
         //select date, month and year from calendar
         selectDateInCalendar("29", "November", "2025");
-
 
         //quit the webdriver
         driver.quit();

@@ -16,7 +16,7 @@ public class Calendar1TestsJS {
     @Test
     public void selectDateCalendar1UsingJS() throws IOException, InterruptedException {
 
-        //webdriver instatiate
+        //webdriver instantiate
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\smruti\\OneDrive\\Desktop\\AmazingFunctionality\\src\\main\\resources\\executables\\chromedriver.exe");
         driver = new ChromeDriver();
 
